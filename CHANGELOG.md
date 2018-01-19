@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [0.0.1] - 2018-01-20
+
 ### Added
 
-init repo
+init repo and publish first version
