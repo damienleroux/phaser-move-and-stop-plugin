@@ -93,10 +93,10 @@ return `true` is the object is moving
 
 ### `onStopped(displayObject){}`
 
-Funciton called when the object stopped. This function is call if the object stopped at the targetted position or stopped before reaching it.
+Function called when the object stopped. This function is call if the object stopped at the targetted position or stopped before reaching it.
 
 ### `onPositionReached(displayObject){}`
 
-Funciton called when the object reach the targetted position
+Function called when the object reach the targetted position
 
 
