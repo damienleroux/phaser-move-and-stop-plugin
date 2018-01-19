@@ -1,0 +1,33 @@
+{
+  "name": "phaser-move-and-stop-plugin",
+  "author": "Damien Leroux <damien.leroux.pro@gmail.com>",
+  "description": "Phaser plugin to move an object and stop it at an exact position",
+  "homepage": "https://github.com/damienleroux/phaser-move-and-stop-plugin",
+  "scripts": {
+    "build": "rimraf lib && babel src --out-dir lib && gulp build"
+  },
+  "main": "lib/move-and-stop-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:damienleroux/phaser-move-and-stop-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/damienleroux/phaser-move-and-stop-plugin/issues"
+  },
+  "version": "0.0.1",
+  "license": "Apache License 2.0",
+  "devDependencies": {
+    "babelify": "~5.0.3",
+    "browser-sync": "^1.7.1",
+    "browserify": "^6.3.3",
+    "gulp": "~3.8.10",
+    "gulp-rename": "^1.2.0",
+    "lodash": "^2.4.1",
+    "rimraf": "~2.2.8",
+    "watchify": "^2.1.1",
+    "vinyl-source-stream": "^1.0.0"
+  },
+  "dependencies": {
+    "debug": "^3.1.0"
+  }
+}
