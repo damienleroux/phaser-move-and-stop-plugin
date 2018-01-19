@@ -138,13 +138,13 @@ export function moveToXY(objectsToMove, game, displayObject, x, y, speed, maxTim
 				moveDistFromTarget,
 				moveDistFromTargetOrigin: moveDistFromTarget
 			});
-			game.physics.arcade.moveToXY(displayObject, x, y, speed, maxTime);
+			return game.physics.arcade.moveToXY(displayObject, x, y, speed, maxTime);
 		}
 	}
 }
 
 export function moveToObject(objectsToMove, game, displayObject, destination, speed, maxTime, events) {
-	moveToXY(objectsToMove, game, displayObject, destination.x, destination.y, speed, maxTime, events);
+	return moveToXY(objectsToMove, game, displayObject, destination.x, destination.y, speed, maxTime, events);
 }
 
 export function stopToMove(objectsToMove, displayObject) {
