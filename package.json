@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/damienleroux/phaser-move-and-stop-plugin/issues"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "Apache License 2.0",
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1",
