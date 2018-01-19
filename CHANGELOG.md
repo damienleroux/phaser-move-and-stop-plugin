@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [1.0.0] - 2018-01-20
+
+First official release!
+
 ### Added
 
 - update readme
