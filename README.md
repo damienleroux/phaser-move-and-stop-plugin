@@ -1,10 +1,10 @@
 # phaser-move-and-stop-plugin
 
-phaser plugin to move an object and stop it at an exact position.
+[phaser](https://phaser.io/) plugin to move an object and stop it at an exact position.
 
 ## Motivation
 
-As I didn't find a way in the phaser core function to move an item to stop at a given position, I made this plugin. It just wrap the phaser core function `moveToXY` to have the displayed object stop when the x/y position is reached.
+As I didn't find a way in the [phaser](https://phaser.io/) core functions to move an item to stop at a given position, I made this plugin. It just wrap the phaser core function `moveToXY` to have the displayed object stop when the x/y position is reached.
 
 ## Installation
 
