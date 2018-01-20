@@ -1,6 +1,7 @@
 # phaser-move-and-stop-plugin
 
 [phaser](https://phaser.io/) plugin to move an object and stop it at an exact position.
+Compatible with phaser >= 2.0.0 <3.0.0
 
 ## Motivation
 
