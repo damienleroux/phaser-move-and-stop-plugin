@@ -57,11 +57,12 @@ function updateObjectMovement(game, objectToMove) {
 		if (isMoving(objectToMove)) {
 			const updatedDist = game.physics.arcade.distanceToXY(displayObject, info.x, info.y);
 			if (updatedDist === 0 || updatedDist > info.moveDistFromTarget) {
-				// if displayObject is still moving, we ask to pahser to stop it (stop velocity)
-				stopObjectMovement(objectToMove);
 				// update coordinates
 				displayObject.x = info.x;
 				displayObject.y = info.y;
+
+				// if displayObject is still moving, we ask to pahser to stop it (stop velocity)
+				stopObjectMovement(objectToMove);
 			} else {
 				//if not stopped, or no need to stop, we update last distance between current displayObject and targetted corrdinates
 				info.moveDistFromTarget = updatedDist;
